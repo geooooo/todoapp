@@ -1,0 +1,5 @@
+name: bin_heap
+author: Iurii Kornienko
+
+environment:
+  sdk: "^1.24.3"

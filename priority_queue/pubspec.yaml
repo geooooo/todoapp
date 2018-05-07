@@ -1,9 +1,0 @@
-name: priority_queue
-author: Iurii Kornienko
-
-environment:
-  sdk: "^1.24.3"
-
-dependencies:
-  bin_heap:
-    path: ../bin_heap
