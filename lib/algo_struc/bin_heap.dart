@@ -58,7 +58,7 @@ class BinHeap<T extends MyComparable> {
       largest = left;
     }
     if (right < this._data.length &&
-        this._data[right] > this._data[index]) {
+        this._data[right] > this._data[largest]) {
       largest = right;
     }
     if (largest != index) {

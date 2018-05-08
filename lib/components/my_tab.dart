@@ -95,11 +95,12 @@ class _MyTab extends State<MyTab> {
       var max = this._queue.popMax();
       this._setTopTodo();
       if (this._listView.isNotEmpty) {
+        var k = 0;
         this._listView.removeWhere((ListTile w) {
           var value = (w.title as Text).data;
           var priority = this._getPriorityByIcon(w.trailing as Icon);
-          return (value == max.value) &&
-                 (priority == max.priority);
+          var b = (value == max.value) && (priority == max.priority);
+          return b && (k++ == 0);
         });
       }
     });
@@ -113,6 +114,7 @@ class _MyTab extends State<MyTab> {
         this._topTodoText = "";
         this._topTodoPriority = null;
       } else {
+        print("max: ${max.priority},${max.value}");
         this._topTodoText = max.value;
         this._topTodoPriority = this._getPriorityByInt(max.priority);
       }

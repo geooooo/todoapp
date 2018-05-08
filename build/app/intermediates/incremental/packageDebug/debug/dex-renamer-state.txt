@@ -1,4 +1,4 @@
-#Tue May 08 17:31:18 MSK 2018
+#Tue May 08 18:42:39 MSK 2018
 base.0=/home/geo/Документы/algo-kurs/todoapp/build/app/intermediates/transforms/dexMerger/debug/0
 path.0=classes.dex
 renamed.0=classes.dex

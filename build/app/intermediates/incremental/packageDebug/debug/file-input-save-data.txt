@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Tue May 08 17:31:20 MSK 2018
+#Tue May 08 18:42:41 MSK 2018
 4.path=flutter_assets/FontManifest.json
 8.set=ASSET
 6.path=classes.dex
