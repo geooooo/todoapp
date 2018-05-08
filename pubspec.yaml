@@ -2,6 +2,11 @@ name: todoapp
 description: Simple todo application.
 
 dependencies:
+  bin_heap:
+    path: lib/bin_heap
+  priority_queue:
+    path: lib/priority_queue
+
   flutter:
     sdk: flutter
 
