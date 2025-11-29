@@ -1,2 +1,2 @@
-# Курсовая работа, задание 13, очередь с приоритетом
-## Простое TODO приложение
+# University course work, task 13, priority queue
+## Simple TODO app
